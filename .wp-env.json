@@ -1,0 +1,11 @@
+{
+	"core": null,
+	"plugins": [
+		"https://downloads.wordpress.org/plugin/wp-graphql.zip",
+		"https://downloads.wordpress.org/plugin/headless-mode.0.2.0.zip"
+	],
+	"port": 4113,
+	"config": {
+		"HEADLESS_MODE_CLIENT_URL": "http://localhost:3000"
+	}
+}
