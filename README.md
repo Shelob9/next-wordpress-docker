@@ -19,3 +19,7 @@ This application was generated with the [WordPress example](https://github.com/v
    - `yarn dev`
 
 Beacuse the Headless Mode plugin is being used, all unauthenticated requests to the front-end of the WordPress site will be redirected to the client. The redirect URL is already configured for local dev. You will need to set one constant in production to match your deployed URL for the client, as [documented here](https://wordpress.org/plugins/headless-mode/#%0Ahow%20do%20i%20set%20it%20up%3F%0A).
+
+## PHP Code
+
+The directory "wordpress-plugin" is a plugin that will be activated. You can put PHP code there. This is a good place to register custom post types, mutations, etc.

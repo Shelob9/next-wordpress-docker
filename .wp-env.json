@@ -1,6 +1,7 @@
 {
 	"core": null,
 	"plugins": [
+		"./wordpress-plugin",
 		"https://downloads.wordpress.org/plugin/wp-graphql.zip",
 		"https://downloads.wordpress.org/plugin/headless-mode.zip"
 	],
