@@ -4,6 +4,7 @@ This application was generated with the [WordPress example](https://github.com/v
 
 `yarn create next-app --example cms-wordpress cms-wordpress-app`
 
+[Example code for this post](https://dev.to/shelob9/using-docker-for-local-development-of-headless-wordpress-apps-with-nextjs-1m85)
 ## Development
 
 - Start [docker-based local development site](https://developer.wordpress.org/block-editor/packages/packages-env/) with these plugins pre-installed:
