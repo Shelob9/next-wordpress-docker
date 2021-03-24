@@ -5,8 +5,16 @@
 		"https://downloads.wordpress.org/plugin/wp-graphql.zip",
 		"https://downloads.wordpress.org/plugin/headless-mode.zip"
 	],
-	"port": 4113,
+	"port": 4111,
 	"config": {
 		"HEADLESS_MODE_CLIENT_URL": "http://localhost:3000"
-	}
+	},
+	"env": {
+        "tests": {
+            "config": {
+                "KEY_1": false
+            },
+            "port": 4001
+        }
+    }
 }
